@@ -1,0 +1,11 @@
+.metadata/
+.sonarlint/
+RemoteSystemsTempFiles/
+.classpath
+bin
+.project
+.settings/*
+.gradle/
+build/
+tmp
+.tmp
