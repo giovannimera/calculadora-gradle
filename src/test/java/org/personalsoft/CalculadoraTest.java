@@ -9,4 +9,9 @@ public class CalculadoraTest {
     public void testSuma() {
         assertEquals(4, 2 + 2);
     }
+	
+	@Test
+    public void testResta() {
+        assertEquals(4, 3 - 2);
+    }
 }
