@@ -12,6 +12,6 @@ public class CalculadoraTest {
 	
 	@Test
     public void testResta() {
-        assertEquals(4, 3 - 2);
+        assertEquals(1, 3 - 2);
     }
 }
