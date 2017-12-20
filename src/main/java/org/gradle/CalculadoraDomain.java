@@ -23,9 +23,9 @@ public class CalculadoraDomain {
 	public void mySuperMethodThatDoesNotDoNothing(String superParameter){
 		
 		if("A".equals(superParameter)){
-			System.out.println("The value is A";
+			System.out.println("The value is A");
 		} else {
-			System.out.println("The value is: B";
+			System.out.println("The value is: B");
 		}
 		
 		
