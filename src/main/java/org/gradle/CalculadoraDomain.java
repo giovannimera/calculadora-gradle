@@ -10,4 +10,11 @@ public class CalculadoraDomain {
 		return a - b;
 	}
 	
+	public int multiplicar(int a, int b){
+		int valor =a * b;
+		return valor;
+	}
+	
+	
+	
 }
