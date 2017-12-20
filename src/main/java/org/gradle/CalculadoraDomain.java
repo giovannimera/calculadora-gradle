@@ -15,6 +15,13 @@ public class CalculadoraDomain {
 		return a - b;
 	}
 	
+
+	public int multiplicar(int a, int b){
+		int valor =a * b;
+		return valor;
+	}
+	
+
 	public int dividir(int a, int b){
 		try{
 			return a / b;
@@ -34,5 +41,6 @@ public class CalculadoraDomain {
 		
 		
 	}
+
 	
 }
