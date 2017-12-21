@@ -1,4 +1,4 @@
-package org.personalsoft;
+package org.gradle;
 
 import static org.junit.Assert.assertEquals;
 
