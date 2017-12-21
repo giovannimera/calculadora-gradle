@@ -14,7 +14,6 @@ public class CalculadoraDomain {
 
 		Set<PersonaGabriel> lista  = crearPersonas();
 
-
 	}
 	
 	public Set<PersonaGabriel> crearPersonas(){
