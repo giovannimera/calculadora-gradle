@@ -1,6 +1,6 @@
 package org.gradle;
 
-public class pruebapull{
+public class pruebaPull{
 	private int numero;
 
 	public int getNumero(){
