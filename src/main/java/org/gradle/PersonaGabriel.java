@@ -5,8 +5,7 @@ public class PersonaGabriel {
 	private int edad;
 	private String profesion;
 	
-	
-	
+
 	public String getNombre() {
 		return nombre;
 	}
