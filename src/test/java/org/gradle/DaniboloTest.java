@@ -57,6 +57,8 @@ public class DaniboloTest {
 		dani.setIntTelefono(2262899);;
         assertEquals(2262899l, dani.getIntTelefono().longValue());
 
+        
+        
 	}
 	
 	public void asignarCelular() {
