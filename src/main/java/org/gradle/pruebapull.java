@@ -1,3 +1,5 @@
+package org.gradle;
+
 public class pruebapull{
 	private int numero;
 	public int getNumero(){
