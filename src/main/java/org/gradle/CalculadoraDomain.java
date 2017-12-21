@@ -33,6 +33,10 @@ public class CalculadoraDomain {
 		return lista;
 	}
 	
+	public void metodoDePrueba(){
+		
+	}
+	
 	
 	
 	public int sumar(int a, int b){
