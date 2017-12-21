@@ -1,6 +1,11 @@
 package org.gradle;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class CalculadoraDomain {
+	
+	private static final Logger log = Logger.getLogger(CalculadoraDomain.class.getName());
 
 	public int sumar(int a, int b){
 		return a + b;
@@ -10,12 +15,18 @@ public class CalculadoraDomain {
 		return a - b;
 	}
 	
+
+	public int multiplicar(int a, int b){
+		int valor =a * b;
+		return valor;
+	}
+	
+
 	public int dividir(int a, int b){
 		try{
-			int c = a / b;
-			return c;
+			return a / b;
 		} catch(Exception e){
-			System.out.println(e.getMessage());
+			log.log(Level.WARNING, "error metodo dividir", e);
 			return -1;
 		}
 	}
@@ -23,12 +34,13 @@ public class CalculadoraDomain {
 	public void mySuperMethodThatDoesNotDoNothing(String superParameter){
 		
 		if("A".equals(superParameter)){
-			System.out.println("The value is A";
+			log.log(Level.WARNING, "el valor de a");
 		} else {
-			System.out.println("The value is: B";
+			log.log(Level.WARNING, "el valor de b");
 		}
 		
 		
 	}
+
 	
 }
