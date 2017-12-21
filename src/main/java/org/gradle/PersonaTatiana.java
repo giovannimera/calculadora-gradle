@@ -37,5 +37,17 @@ public class PersonaTatiana {
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
 	}
+	
+	public static PersonaTatiana obtenerPersona(){
+		PersonaTatiana persona = new PersonaTatiana();
+		
+		persona.setNombres("Tatiana Hernandez C");
+		persona.setCorreo("tahecass02@hotmail.com");
+		persona.setDireccion("Medellin Antioquia, Suramericana");
+		persona.setTelefono("45621234");
+		
+		return persona;
+		
+	}
 
 }
