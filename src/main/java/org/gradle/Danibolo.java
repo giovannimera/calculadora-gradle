@@ -14,22 +14,6 @@ public class Danibolo {
 	Integer intCelular;
 	String  stCorreoElectronico;
 
-	public Danibolo(String stNombre, String stPrimerApellido,
-			String stSegundoApellido, Date dtFechaNacimiento,
-			String stNacionalidad, Integer intEdad, Integer intTelefono,
-			Integer intCelular, String stCorreoElectronico) {
-
-		this.stNombre = stNombre;
-		this.stPrimerApellido = stPrimerApellido;
-		this.stSegundoApellido = stSegundoApellido;
-		this.dtFechaNacimiento = dtFechaNacimiento;
-		this.stNacionalidad = stNacionalidad;
-		this.intEdad = intEdad;
-		this.intTelefono = intTelefono;
-		this.intCelular = intCelular;
-		this.stCorreoElectronico = stCorreoElectronico;
-	}
-
 	public String getStNombre() {
 		return stNombre;
 	}
