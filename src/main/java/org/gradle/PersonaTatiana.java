@@ -6,11 +6,6 @@ public class PersonaTatiana {
 	private String correo;
 	private String direccion;
 	
-
-	public PersonaTatiana() {
-	 
-	}
-
 	public String getNombres() {
 		return nombres;
 	}
