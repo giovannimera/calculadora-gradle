@@ -35,7 +35,6 @@ public class PersonSerna {
 	}
 	
 	public String obtenerNombreCompleto(String nombre, String apellido){
-		String nombreCompleto = nombre.concat(apellido);
-		return nombreCompleto;
+		return nombre.concat(apellido);
 	}
 }
