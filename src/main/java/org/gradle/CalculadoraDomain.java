@@ -11,7 +11,11 @@ public class CalculadoraDomain {
 	private static final Logger log = Logger.getLogger(CalculadoraDomain.class.getName());
 
 	public CalculadoraDomain(){
+<<<<<<< HEAD
 		Set<PersonaGabriel> lista =crearPersonas();
+=======
+		Set<PersonaGabriel> lista  = crearPersonas();
+>>>>>>> ramaGabriel
 
 	}
 	
@@ -31,6 +35,10 @@ public class CalculadoraDomain {
 		
 		lista.add(daniela);
 		return lista;
+	}
+	
+	public void metodoDePrueba(){
+		
 	}
 	
 	
