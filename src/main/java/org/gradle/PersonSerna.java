@@ -27,12 +27,6 @@ public class PersonSerna {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
-	public int getEdad() {
-		return edad;
-	}
-	public void setEdad(int edad) {
-		this.edad = edad;
-	}
 	
 	public String obtenerNombreCompleto(String nombre, String apellido){
 		return nombre.concat(apellido);
