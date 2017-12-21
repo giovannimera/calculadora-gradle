@@ -1,6 +1,8 @@
 package org.gradle;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -9,12 +11,12 @@ public class CalculadoraDomain {
 	private static final Logger log = Logger.getLogger(CalculadoraDomain.class.getName());
 
 	public CalculadoraDomain(){
-		ArrayList<PersonaGabriel> lista = crearPersonas();
+		Set<PersonaGabriel> lista = crearPersonas();
 
 	}
 	
-	public ArrayList<PersonaGabriel> crearPersonas(){
-		ArrayList<PersonaGabriel> lista = new ArrayList<PersonaGabriel>();
+	public Set<PersonaGabriel> crearPersonas(){
+		Set<PersonaGabriel> lista = new HashSet<PersonaGabriel>();
 		PersonaGabriel gabriel = new PersonaGabriel();
 		gabriel.setNombre("Gabriel");
 		gabriel.setEdad(26);
