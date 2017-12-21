@@ -45,7 +45,7 @@ public class WuendyPersonTest {
 	public void testSetEdad() {
 		WuendyPerson wuendyPerson=new WuendyPerson();
 		wuendyPerson.setEdad(10);
-		assertFalse(wuendyPerson.getEdad()==0);
+		assertFalse(wuendyPerson.getEdad()==0); 
 	}
 
 }
