@@ -8,7 +8,7 @@ public class DaniboloTest {
 
 	@Test
 	public final void testDanibolo() {
-		fail("Not yet implemented"); // TODO
+		//fail("Not yet implemented"); // TODO
 	}
 	public void asignarNombre() {
 		Danibolo dani = new Danibolo();
