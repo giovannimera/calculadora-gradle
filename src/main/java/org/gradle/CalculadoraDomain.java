@@ -41,14 +41,6 @@ public class CalculadoraDomain {
 		return a - b;
 	}
 
-	
-	public int calcularArea(int a, int b){
-		
-		return a * b;
-	}
-	
-
-
 	public int multiplicar(int a, int b){
 		return a * b;
 	}
@@ -70,5 +62,4 @@ public class CalculadoraDomain {
 			log.log(Level.WARNING, "el valor de b");
 		}
 	}
-
 }
