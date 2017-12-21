@@ -4,6 +4,7 @@ public class WuendyPerson {
 	private String nombres;
 	private String apellidos;
 	private int edad;
+	private String cualquierCosa;
 	
 	public String getNombres() {
 		return nombres;
