@@ -30,6 +30,10 @@ public class Danibolo {
 		this.stCorreoElectronico = stCorreoElectronico;
 	}
 
+	public Danibolo() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getStNombre() {
 		return stNombre;
 	}
