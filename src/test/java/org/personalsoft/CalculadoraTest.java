@@ -23,7 +23,8 @@ public class CalculadoraTest {
 	@Test
 	public void testCrearPersonaGabriel(){
 		CalculadoraDomain main = new CalculadoraDomain();
-		ArrayList<PersonaGabriel> listaPrueba = main.crearPersonas();
+		@SuppressWarnings("unchecked")
+		ArrayList<PersonaGabriel> listaPrueba = (ArrayList<PersonaGabriel>) main.crearPersonas();
 		assertEquals(2, listaPrueba.size());
 		
 	}
