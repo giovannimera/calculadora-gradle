@@ -11,7 +11,7 @@ public class CalculadoraDomain {
 	private static final Logger log = Logger.getLogger(CalculadoraDomain.class.getName());
 
 	public CalculadoraDomain(){
-		Set<PersonaGabriel> lista = crearPersonas();
+		Set<PersonaGabriel> lista =crearPersonas();
 
 	}
 	
